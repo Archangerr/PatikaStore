@@ -29,4 +29,16 @@ public class CepTelefonu extends Product {
     public void setColor(Color color) {
         this.color = color;
     }
+    public void printDetails() {
+        System.out.println("Phone ID: " + getId());
+        System.out.println("Name: " + getName());
+        System.out.println("Brand: " + getBrand().getName());
+        System.out.println("Price: " + getPrice() + " (Stock: " + getStock() + ")");
+        System.out.println("Memory: " + getMem() + " GB");
+        System.out.println("Screen Size: " + getSize() + " inches");
+        System.out.println("RAM: " + getRam() + " GB");
+        System.out.println("Battery Power: " + power + " mAh");
+        System.out.println("Color: " + color);
+        System.out.println("---------------------------------");
+    }
 }

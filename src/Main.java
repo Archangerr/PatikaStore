@@ -1,5 +1,10 @@
+import Store.StoreManagement;
+
 public class Main {
     public static void main(String[] args) {
+
         System.out.println("Hello world!");
+        StoreManagement manage = new StoreManagement();
+        manage.Start();
     }
 }
